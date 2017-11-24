@@ -1,0 +1,26 @@
+diff --git a/style.css b/style.css
+index 118c88a..89234d2 100644
+--- a/style.css
++++ b/style.css
+@@ -1251,3 +1251,20 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
+     padding: 0px 272px;
+   }
+ }
++.field--name-field-tags{
++	display: inline-flex;
++}
++.field--name-field-tags ul{
++	display: inline-flex;
++    padding: 7px 0 0 0;
++	list-style: none;
++}
++.field--name-field-tags ul li a {
++    background: #ed564b;
++    text-shadow: none;
++    margin-right: 5px;
++    margin-bottom: 5px;
++    border-radius: 2px;
++    color: #fff;
++    padding: 2px 6px;
++}
+\ No newline at end of file
